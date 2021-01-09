@@ -41,7 +41,7 @@ HackTools是一个用于web应用程序渗透测试的web插件，它包括渗�
 
 ### 谷歌浏览器
 
-你可以在 [这里](https://github.com/s7ck/Hack-Tools/)下载最新的汉化版本
+你可以在 [这里](https://github.com/s7ckTeam/HackTools/)下载最新的汉化版本
 
 另外，如果您想自己从源代码构建项目
 
