@@ -29,7 +29,12 @@ const Base64Encode = () => {
 				setOutput('无法正确解码：不正确的base64');
 				message.error('不正确的Base64，请尝试其他方法');
 			}
+		} else if (type === 'qlencode') {
+			setOutput(encodeURIComponent(input));
+		} else if (type === 'qldecode') {
+			setOutput(decodeURIComponent(input));
 		}
+
 		return;
 	};
 	return (
@@ -71,6 +76,22 @@ const Base64Encode = () => {
 				>
 					<IconFont type='icon-lock-open' />
 					Decode
+				</Button>
+				<Button
+					type='primary'
+					style={{ marginBottom: 10, marginTop: 15, marginLeft: 15 }}
+					onClick={() => handleClick('qlencode')}
+				>
+					<IconFont type='icon-lock' />
+					强力Encode
+				</Button>
+				<Button
+					type='dashed'
+					style={{ marginBottom: 10, marginTop: 15, marginLeft: 15 }}
+					onClick={() => handleClick('qldecode')}
+				>
+					<IconFont type='icon-lock-open' />
+					强力Decode
 				</Button>
 			</div>
 			<div
