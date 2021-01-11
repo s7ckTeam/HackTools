@@ -82,7 +82,7 @@ export default (props) => {
 				</Col>
 			</Row>
 			<div style={{ textAlign: 'center' }}>
-				<Paragraph>你有一个关于饲料的建议 ?</Paragraph>
+				<Paragraph>你有一个关于资料的建议 ?</Paragraph>
 				<Button icon={<GithubOutlined />} type='link'>
 					<a
 						href='https://github.com/LasCC/Hack-Tools/issues/new'

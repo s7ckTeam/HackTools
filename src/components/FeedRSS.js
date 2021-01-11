@@ -18,7 +18,7 @@ export default (props) => {
 				利用RSS提要
 			</Title>
 			<Paragraph style={{ margin: 15 }}>
-				对在饲料;攻击，Shellcode, 0days，远程攻击，本地攻击，Web应用程序，漏洞
+				对在资料;攻击，Shellcode, 0days，远程攻击，本地攻击，Web应用程序，漏洞
 				报告、安全文章、教程等。
 			</Paragraph>
 			<Row gutter={[ 32, 24 ]} style={{ padding: 15 }}>
@@ -32,7 +32,7 @@ export default (props) => {
 						}}
 						cover={<img alt='exploit-db_website_homepage' src='https://i.imgur.com/ST3cgmI.png' />}
 						actions={[
-							<Tooltip title='看饲料'>
+							<Tooltip title='看资料'>
 								<EyeOutlined key='goto_page' onClick={() => goTo(ExploitDB)} />
 							</Tooltip>,
 							<Tooltip title='网站链接'>
@@ -59,7 +59,7 @@ export default (props) => {
 						}}
 						cover={<img alt='cisco_image_logo' src='https://i.imgur.com/8EWAc2t.png' />}
 						actions={[
-							<Tooltip title='看饲料'>
+							<Tooltip title='看资料'>
 								<EyeOutlined key='goto_page' onClick={() => goTo(Cisco)} />
 							</Tooltip>,
 							<Tooltip title='网站链接'>
@@ -92,7 +92,7 @@ export default (props) => {
 						}}
 						cover={<img alt='cve_image_logo' src='https://i.imgur.com/AtKXVuk.png' />}
 						actions={[
-							<Tooltip title='看饲料'>
+							<Tooltip title='看资料'>
 								<EyeOutlined key='goto_page' onClick={() => goTo(cve)} />
 							</Tooltip>,
 							<Tooltip title='网站链接'>
@@ -142,7 +142,7 @@ export default (props) => {
 				</Col>
 			</Row>
 			<div style={{ textAlign: 'center' }}>
-				<Paragraph>你对饲料有什么建议吗?</Paragraph>
+				<Paragraph>你对资料有什么建议吗?</Paragraph>
 				<Button icon={<GithubOutlined />} type='link'>
 					<a
 						href='https://github.com/LasCC/Hack-Tools/issues/new'
